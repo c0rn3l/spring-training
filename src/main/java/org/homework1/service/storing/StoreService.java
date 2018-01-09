@@ -1,7 +1,7 @@
-package org.homework1.service;
+package org.homework1.service.storing;
 
 import org.homework1.Message;
 
-public interface StoringService {
+public interface StoreService {
     void storeMessage(Message message);
 }
