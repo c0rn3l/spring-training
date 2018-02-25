@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext(StoringConfiguration.class);
-        MessageStoringService builder = context.getBean(MessageStoringService.class);
-        builder.createMessages(args[0]);
+        MessageStoringService messageStoringService = context.getBean(MessageStoringService.class);
+        messageStoringService.storeMessages(args[0]);
     }
 }
