@@ -1,7 +1,5 @@
 package org.springtraining.simplejava;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-
 import java.io.IOException;
 import java.util.Properties;
 
